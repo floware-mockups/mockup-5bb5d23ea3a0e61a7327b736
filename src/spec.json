@@ -1,0 +1,231 @@
+{
+  "title": "Gestione delle richieste di manutenzione del verde",
+  "description": "Dashboard per registrare e monitorare richieste inventate di manutenzione del verde pubblico, con priorità, quartiere e stato di lavorazione.",
+  "accent": "emerald",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Panoramica delle richieste e delle attività di manutenzione del verde.",
+      "metrics": [
+        {
+          "label": "Richieste aperte",
+          "value": "18"
+        },
+        {
+          "label": "Priorità alta",
+          "value": "4"
+        },
+        {
+          "label": "Quartieri coinvolti",
+          "value": "7"
+        },
+        {
+          "label": "Interventi completati",
+          "value": "26"
+        }
+      ],
+      "columns": [
+        "Richiesta",
+        "Quartiere",
+        "Area verde",
+        "Intervento",
+        "Priorità",
+        "Stato",
+        "Data segnalazione"
+      ],
+      "rows": [
+        [
+          "R-2041",
+          "Nubi",
+          "Giardino delle Lanterne",
+          "Potatura",
+          "Alta",
+          "In lavorazione",
+          "12/06/2025"
+        ],
+        [
+          "R-2042",
+          "Vela",
+          "Prato dei Sassi",
+          "Irrigazione",
+          "Media",
+          "Aperta",
+          "13/06/2025"
+        ],
+        [
+          "R-2043",
+          "Lumo",
+          "Boschetto delle Vele",
+          "Rimozione ramo",
+          "Alta",
+          "Assegnata",
+          "14/06/2025"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "richieste",
+      "title": "Richieste",
+      "description": "Elenco filtrabile delle segnalazioni, con priorità e stato per quartiere.",
+      "metrics": [
+        {
+          "label": "Totale richieste",
+          "value": "48"
+        },
+        {
+          "label": "Aperte",
+          "value": "18"
+        }
+      ],
+      "columns": [
+        "Richiesta",
+        "Quartiere",
+        "Area verde",
+        "Intervento",
+        "Priorità",
+        "Stato",
+        "Data segnalazione"
+      ],
+      "rows": [
+        [
+          "R-2041",
+          "Nubi",
+          "Giardino delle Lanterne",
+          "Potatura",
+          "Alta",
+          "In lavorazione",
+          "12/06/2025"
+        ],
+        [
+          "R-2042",
+          "Vela",
+          "Prato dei Sassi",
+          "Irrigazione",
+          "Media",
+          "Aperta",
+          "13/06/2025"
+        ],
+        [
+          "R-2043",
+          "Lumo",
+          "Boschetto delle Vele",
+          "Rimozione ramo",
+          "Alta",
+          "Assegnata",
+          "14/06/2025"
+        ],
+        [
+          "R-2044",
+          "Nubi",
+          "Piazza dei Ciliegi",
+          "Pulizia aiuola",
+          "Bassa",
+          "Completata",
+          "10/06/2025"
+        ],
+        [
+          "R-2045",
+          "Vela",
+          "Giardino delle Brume",
+          "Sfalcio",
+          "Media",
+          "Aperta",
+          "15/06/2025"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "nuova-richiesta",
+      "title": "Nuova richiesta",
+      "description": "Registra una richiesta di manutenzione con i dati essenziali per l'assegnazione.",
+      "metrics": [],
+      "columns": [
+        "Quartiere",
+        "Area verde",
+        "Intervento",
+        "Priorità",
+        "Stato",
+        "Data segnalazione"
+      ],
+      "rows": [],
+      "form": [
+        "Quartiere",
+        "Area verde",
+        "Intervento",
+        "Priorità",
+        "Stato",
+        "Data segnalazione"
+      ]
+    },
+    {
+      "id": "interventi",
+      "title": "Interventi",
+      "description": "Consulta e aggiorna gli interventi pianificati o in corso.",
+      "metrics": [
+        {
+          "label": "In lavorazione",
+          "value": "9"
+        },
+        {
+          "label": "Completati nel mese",
+          "value": "26"
+        },
+        {
+          "label": "Da assegnare",
+          "value": "5"
+        }
+      ],
+      "columns": [
+        "Intervento",
+        "Quartiere",
+        "Area verde",
+        "Tipo attività",
+        "Priorità",
+        "Stato",
+        "Data prevista"
+      ],
+      "rows": [
+        [
+          "I-781",
+          "Nubi",
+          "Giardino delle Lanterne",
+          "Potatura",
+          "Alta",
+          "In lavorazione",
+          "18/06/2025"
+        ],
+        [
+          "I-782",
+          "Vela",
+          "Prato dei Sassi",
+          "Irrigazione",
+          "Media",
+          "Pianificato",
+          "19/06/2025"
+        ],
+        [
+          "I-783",
+          "Lumo",
+          "Boschetto delle Vele",
+          "Rimozione ramo",
+          "Alta",
+          "Assegnato",
+          "17/06/2025"
+        ],
+        [
+          "I-784",
+          "Nubi",
+          "Piazza dei Ciliegi",
+          "Pulizia aiuola",
+          "Bassa",
+          "Completato",
+          "11/06/2025"
+        ]
+      ],
+      "form": []
+    }
+  ]
+}
